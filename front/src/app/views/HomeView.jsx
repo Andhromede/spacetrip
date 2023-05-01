@@ -53,23 +53,28 @@ const HomeView = () => {
             <p className="mt-8 font-Ananda text-center text-2xl text-terciary-light tracking-wider">
                « Le plus beau voyage, c'est celui qu'on n’a pas encore fait »
             </p>
-<div className="mx-auto md:w-[80%] lg:w-[50%] ">
-            <Carrousel data={tabDestinations}></Carrousel>
-</div>
+
+            {/* <div className="mx-auto md:w-[80%] lg:w-[50%] ">
+               <Carrousel data={tabDestinations}></Carrousel>
+            </div> */}
 
             <div className="mt-4 flex justify-center">
                <h2 className="text-center title-jedi text-white my-8  underline decoration-primary-dark">
                   Nos destinations
                </h2>
+
                <img className="h-[30px] my-auto pl-2" src={StarIcon} alt="" />
             </div>
+
             <div className="mx-auto md:w-[80%] lg:w-[50%] ">
-            {/* <Slider page="home" data={tabDestinations}></Slider> */}
+               {/* <Slider page="home" data={tabDestinations}></Slider> */}
             </div>
+
             <div className="flex justify-center">
                <h2 className="text-center title-jedi text-white my-10 underline decoration-primary-dark">
                   Nos voyages les plus vendus
                </h2>
+               
                <img className="h-[25px] my-auto pl-2" src={MoneyBag} alt="" />
             </div>
 

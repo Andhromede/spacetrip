@@ -1,0 +1,25 @@
+.input{
+    @apply appearance-none relative block w-full px-3 py-2 
+    border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md 
+    focus:outline-none focus:ring-primary focus:border-primary focus:z-20 sm:text-sm
+}
+
+.input-error {
+    @apply ring-red-500 border-red-500 focus:ring-red-500 focus:border-red-500 z-10 placeholder-red-500
+}
+
+.checkbox {
+    @apply text-purple-600 bg-gray-100 rounded border-gray-300 focus:ring-purple-500 focus:ring-purple-600 ring-offset-gray-800 focus:ring-2 bg-gray-700 border-gray-600
+}
+
+.checkbox-error{
+    @apply border-red-500 border-2
+}
+
+.radio{
+    @apply focus:ring-primary h-4 w-4 text-primary-dark border-gray-300
+}
+
+.radio-error{
+    @apply border-red-500 border-2
+}

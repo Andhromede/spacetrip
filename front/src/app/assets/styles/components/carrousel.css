@@ -1,0 +1,28 @@
+.caroussel {
+  position: relative;
+  color: black;
+  border-color: black;
+}
+.caroussel .thumbs{
+  display: flex;
+  justify-content: center;
+}
+.caroussel .thumb{
+  border-color: black;
+  /* justify-content: center; */
+}
+
+.caroussel .overlay {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+  padding: 1.4rem 1.5rem;
+  text-align: left;
+  /* background: rgba(0, 0, 0, 0.6); */
+  color: black;
+}
+.caroussel .overlay__title {
+  margin: 0.8rem 0 1rem 0;
+}

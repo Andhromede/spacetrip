@@ -1,0 +1,44 @@
+
+.btn{
+    @apply inline-flex items-center justify-center px-4 py-2 text-base font-medium transform border border-transparent rounded-md shadow whitespace-nowrap focus:outline-none active:scale-95 active:ring-2 active:ring-offset-2 active:ring-white ;
+}
+
+.btn-link-primary{
+    @apply font-medium text-primary hover:text-primary-dark ;
+}
+
+.btn-primary{
+    @apply text-white bg-primary hover:bg-primary-dark hover:text-white active:ring-primary ;
+}
+
+.btn-secondary{
+    @apply text-white bg-secondary hover:bg-secondary-dark hover:text-white active:ring-secondary-light ;
+}
+
+.btn-blue{
+    @apply text-white bg-blue-600 hover:bg-blue-700 hover:text-white active:ring-primary ;
+}
+
+.btn-red{
+    @apply text-white bg-red-600 hover:bg-red-700 hover:text-white active:ring-red-500 ;
+}
+
+.btn-green{
+    @apply text-white bg-green-600 hover:bg-green-700 hover:text-white active:ring-green-500 ;
+}
+
+.btn-yellow{
+    @apply text-white bg-yellow-500 hover:bg-yellow-600 hover:text-white active:ring-yellow-500 ;
+}
+
+.btn-purple{
+    @apply text-white bg-purple-600 hover:bg-purple-700 hover:text-white active:ring-purple-500 ;
+}
+
+.btn-pink{
+    @apply text-white bg-pink-600 hover:bg-pink-700 hover:text-white active:ring-pink-500 ;
+}
+
+.btn-indigo{
+    @apply text-white bg-indigo-600 hover:bg-indigo-700 hover:text-white active:ring-indigo-500 ;
+}

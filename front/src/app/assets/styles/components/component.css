@@ -1,0 +1,17 @@
+@tailwind components;
+
+@layer components {
+    #root {
+        @apply h-screen;
+    }
+
+    /* LINKS */
+    .link {
+        @apply cursor-pointer text-base font-medium text-gray-500 hover:text-primary;
+    }
+
+    /* GEOMETRY */
+    .point {
+        @apply mt-2 h-4 w-4 rounded-full p-2;
+    }
+}
